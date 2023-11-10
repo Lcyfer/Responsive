@@ -1,0 +1,302 @@
+body{
+  margin: 0px;
+}
+main{
+  margin: 0px;
+  height: 700px;
+background-image: url('back.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+nav{
+  box-shadow: 0 10px 10px 10px black;
+  background-color: grey;
+  padding: 15px 25px;
+}
+.logo{
+  height: 80px;
+  width:100px;
+}
+ .icon1{
+        height:30px;
+        width: 30px;
+        padding-right:10px ;
+        position: relative;
+        top: 10px;
+        display: none;
+ }
+ 
+.lbl{
+  margin: 10px;
+  color: white;
+  position: relative;
+  display: inline-block;
+  font-family: Verdana;
+  top: -30px;
+}
+.v0{
+  display: inline-block;
+}
+.v1{
+  position: relative;
+  float: right;
+  top: 30px;
+  display: block;
+}
+.lin{
+  color: white;
+  margin: 0 15px;
+  font-family: Verdana;
+  font-size: 20px;
+  text-decoration: none;
+}
+.lin:hover{
+  text-decoration: overline underline;
+  text-decoration-color: blue;
+}
+
+.lin1{
+  background-color: yellow;
+  color: white;
+  font-family: Verdana;
+  padding: 15px 25px;
+  border-radius: 25px;
+  font-size: 20px;
+  
+}
+.vex1{
+  height:450px;
+  width: 500px;
+  float: right;
+  position: relative;
+  padding: 5px;
+  top: 40px;
+}
+/*main qoute*/
+.msg{
+  height: 100px;
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+  position:relative;
+  left: 150px;
+  top: 100px;
+  font-family: Verdana;
+  font-size: 25px;
+  color: white;
+}
+/*section1*/
+.sec1{
+  background-image:url('back1.jpg') ;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+.intro{
+  text-align:center ;
+  font-family: Verdana;
+  font-size: 20px;
+  color:white;
+  height:100px;
+  width: 800px;
+  position: relative;
+  top: 50px;
+  left: 100px;
+  font-style:italic ;
+  text-shadow: 2px 0px 5px red;
+}
+.box1{
+  width: 300px;
+  height: 300px;
+  border: 2px solid black ;
+  border-radius: 10px;
+  margin: 5px;
+  position:relative;
+  left:25px;
+  top: 30px;
+  display: inline-block;
+}
+.img1{
+  height: 190px;
+  width:300px ;
+  margin: 0px;
+  border-radius: 5px;
+}
+.word{
+  font-size: 12px;
+  font-family: Verdana;
+  overflow: scroll;
+  height: 105px;
+  background-color: black;
+  color: white;
+  margin:0px;
+  border-radius: 0 0 5px 5px;
+  
+}
+/*section2*/
+.sec2{
+  background-color: black;
+  height: 400px;
+  padding: 10px;
+  
+}
+ .icon2{
+    height:30px;
+    width: 30px;
+    padding-right:10px ;
+    position: relative;
+    display:inline-block;
+    top: 10px;
+ }
+ .fors{
+   width: 300px;
+   height: 300px;
+   background-color: grey;
+   position: relative;
+   left: 100px;
+   top: 50px;
+   padding: 15px;
+   border-radius: 10px;
+   display: inline-block;
+ }
+ .v3{
+   display: block;
+   position:relative;
+   top: 20px;
+   font-family: Verdana;
+   color: white;
+   font-size: 15px;
+   text-decoration: none;
+   
+ }
+.feedb{
+  height: 350px;
+  width:330px;
+  padding: 10px;
+  background-color:rgba(67, 67, 67, 0.99);
+  float:right;
+  display: inline-block;
+  border-collapse:collapse ;
+  border-radius:10px ;
+  position: relative;
+  top: 30px;
+  right:100px;
+}
+.email{
+  font-display: Verdana;
+  width: 320px;
+  height: 30px;
+  outline-color: none;
+  border-radius: 10px;
+  background-color: grey;
+  font-size: 20px;
+  
+}
+footer{
+  background-color: grey;
+  height: 100px;
+  position: relative;
+  margin-top: -20px;
+  display: block;
+}
+.copy{
+  text-align: center;
+  position:relative;
+  top: 50px;
+}
+.comment{
+  font-family: Verdana;
+  width: 320px;
+  outline-color: none;
+  border-radius: 10px;
+  background-image: black;
+  margin-top: 5px;
+  font-size: 20px;
+  background-color: grey;
+}
+@media (max-height:768px) {
+    body{
+      margin: 0;
+ }
+      nav{
+        padding: 10px 0px;
+      }
+      .logo{
+        height: 130px;
+        width: 150px;
+      }
+     .icon1{
+       display: inline-block;
+     }
+      
+      .lbl{
+      margin: 5px;
+      color: white;
+      position: relative;
+      display: inline-block;
+      font-family: Verdana;
+      font-size: 50px;
+      top: -30px;
+    }
+       .v1{
+        float: none;
+        top: 15px;
+        padding: 0px;
+    }
+      .lin{
+        display: block;
+        padding: 10px;
+        margin: 0px;
+        
+        
+     }
+    .lin1{
+        display: block;
+        padding: 10px;
+        margin: 2px 0px 2px 0px;
+        border-radius: 0px;
+        background-color: grey;
+ }
+ /*main*/
+    .vex1{
+      position: relative;
+      float: right;
+      width: 300px;
+      height: 250px;
+      top: 200px;
+    }
+    .msg{
+      left: 20px;
+      font-size: 18px;
+    }
+    .sec1{
+      height: 1200px;
+    }
+    .intro{
+      font-size: 15px;
+      left: 20px;
+      width: 300px;
+      top: 20px;
+    }
+    .box1{
+      display: block;
+      left: 20px;
+    }
+    .feedb{
+      right: 10px;
+      width:310px;
+    }
+    .email,.comment{
+      width: 300px;
+    }
+    .fors{
+      left: 5px;
+    }
+    .sec2{
+      height: 800px;
+    }
+    
+}
+
