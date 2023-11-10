@@ -216,7 +216,7 @@ footer{
   font-size: 20px;
   background-color: grey;
 }
-@media (max-height:768px) {
+@media (max-width:768px) {
     body{
       margin: 0;
  }
